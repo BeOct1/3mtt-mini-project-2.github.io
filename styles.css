@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f3f3f3;
+}
+
+.hero {
+    background-color: darkgrey;
+    padding: 20px 30px;
+}
+
+.navbar {
+  background-color: #0056b3;
+  display:inline-flex;
+  display: flex;
+  padding-left: 70%
+}
+
+.div {
+  font-family: Catamaran;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  color: black;
+  grid-gap: 30px7
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+	display: inline-flex;
+	color: white;
+  width: fit-content;
+
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  font-family: Catamaran;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px 0;
+  display: inline-flex;
+  align-self: center;
+  color: white;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin: 10px;
+  margin-left: 0;
+  padding: 10px 10px;
+}
+
+.div h1 {
+  color: black;
+  font-family: Catamaran;
+  font-size: 90px;
+  padding: 0px 20px;
+  font-weight: 600;
+}
+
+.fonta {
+  color: red;
+}
+
+.div p {
+  font-family: Catamaran;
+  font-size: 10x;
+  font-weight: 100;
+  color: brown;
+  margin-top: 150px;
+}
+
+.intro {
+  font-family: Catamaran;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+}
+
+.intro h2 {
+  font-family: Catamaran;
+  font-size: 35px;
+  font-weight: 900;
+  color: black;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.cta-button {
+    background-color: gray;
+    color: blue;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.about p {
+    margin: 10px 0;
+    line-height: 1.6;
+    color: black;
+}
+
+
+.features {
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    flex: 1 1 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color:milk ;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    width:50px;
+    height:50px;
+}
+
+.contact {
+    padding: 30px 10px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.contact p {
+    margin: 10px 0;
+    line-height: 1;
+    color: black;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
